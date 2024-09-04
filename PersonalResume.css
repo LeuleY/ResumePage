@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 50px !important ; */
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+
+    background-color: lightslategrey;
+
+
+}
+
+.name{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;     
+    flex-direction: column; 
+}
+
+.icons{
+    display: flex;
+    flex-direction:row; 
+    
+
+}
+
+.iconstack{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+
+}
+
+.para  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.tbox{
+    border-radius: 5%;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+.skillbox{
+
+    flex-direction:row; 
+    display: flex;
+    justify-content: center;
+
+
+}
